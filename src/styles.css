@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.h1 {
+  color: blue;
+  background-color: yellow;
+}
+.h2 {
+  background-color: tomato;
+}
+
+@media screen and (min-width: 300px) {
+  .h1 {
+    color: red;
+  }
+  .h2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 450px) {
+  .h1 {
+    color: rgb(28, 224, 61);
+  }
+}
+@media screen and (max-width: 660px) {
+  .h2 {
+    display: unset;
+    background-color: yellowgreen;
+  }
+}
